@@ -62,7 +62,8 @@ function updateCartModal(){
         
 
         cartItemsElement.innerHTML = `
-            <div class="flex items-center justify-between">
+            <div class="flex items-center justify-between bg-white
+                    rounded-2xl shadow-lg p-5"">
                 <div>
                     <p class="font-bold">${item.name}</p>
                     <p>Qtd: ${item.quantity}</p>
